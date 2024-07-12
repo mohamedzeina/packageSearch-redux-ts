@@ -1,20 +1,24 @@
 ## Description
-Simple application that allows the user to search for names of npm packages using the npmjs API. This application uses React, TypeScript and Redux.
-Three states were utilized inside the redux store:
-1) Loading State (when the action creator is loading the data from the API)
-2) Success State (when the action creator loads the data successfully)
-3) Error State (when something goes wrong with the data loading)
+This application is a straightforward tool enabling users to search for npm package names using the npmjs API. It's built with React, TypeScript, and Redux, employing three distinct states within the Redux store:
+
+* Loading State: Indicates when data is being fetched from the API.
+* Success State: Indicates successful loading of data by the action creator.
+* Error State: Indicates any issues encountered during data loading.
 
 ## How To Run Locally
 First, clone the repo to your local machine:
 ```
 git clone https://github.com/mohamedzeina/packageSearch-redux-ts.git
 ```
-Then, open up a terminal in the project's directory run the following command to install packages needed by the project:
+Then move into the project's directory:
+```
+cd packageSearch-redux-ts
+```
+Then, install dependencies using the following command:
 ```
 npm install
 ```
-Then, open a terminal in the local repo and run the development server:
+Then, run the development server:
 
 ```bash
 npm start
